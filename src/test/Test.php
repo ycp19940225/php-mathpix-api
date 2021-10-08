@@ -11,6 +11,6 @@ $config  = [
 
 $obj = MathpixApi::getInstance($config);
 
-$test = $obj->request('https://gongkao-1253756937.cosgz.myqcloud.com/app_qb/chongqing/img/1632981054.png');
+$test = $obj->request('img url');
 
 var_dump($test);
